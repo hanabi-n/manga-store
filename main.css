@@ -1,0 +1,1937 @@
+
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container_nav{
+  width: 100%;
+	max-width: 1035px;
+	margin: 0 auto;
+}
+
+.dropdown-second{
+  display: none;
+}
+
+.selector_class{
+
+  color: #000;
+  background-color: #e4e4e4;
+  border-color: #e4e4e4;
+
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-top: 3px;
+  margin-left: 23px;
+  margin-bottom: 10px;
+  padding: 4px 12px;
+}
+
+.button_selector{
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  background: #db8896;
+  padding: 2px 12px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+
+.button_selector:hover{
+  background-color: #8DA9C4;
+}
+
+
+
+.banner_img{
+  width: 84px;
+  height: 85px;
+}
+
+ 
+.img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+	color: #000000;
+}
+
+/* a:hover{
+	color: #C90020;
+
+} */
+
+/* welcome page */
+
+.cardF.welcome{
+  background: url("Frame 6/welcome_page.png")center;
+  margin: 0 auto;
+
+  margin-bottom: 2rem;
+  border-color: #fff;
+  width: 1200px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.welcome_page{
+  width: 800px;
+}
+
+.welcome__description{
+  box-sizing: border-box;
+  max-width: 700px;
+  overflow: hidden;
+  margin: 145px auto;
+  text-align: center;
+}
+
+/* buttons */
+
+.btn-five{
+  background-color: #6C757D;
+  color: #fff;
+}
+
+.btn.btn-five.dropdown-toggle:hover{
+  background-color: #6600CC;
+  transition: 0.5s;
+}
+
+.btn {
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 260px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.btn-secondary {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-secondary:hover{
+  color: #000;
+
+}
+
+
+  /* dropdown button */
+
+.dropdown-menu{
+  left: -147px;
+  text-align: left;  
+  padding: 0px 0px 10px 0px;
+}
+
+.dropdown-menu.second{
+  left: -275px;
+  top: 65px;
+}
+ 
+.dropdown-item.first{
+  background: #f0f0ff;
+}
+
+.dropdown_first_profile{
+  margin: 10px 0;
+}
+
+.dropdown_first_profile:hover{
+  color: #C90020;
+}
+
+.user_name{
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.dropdown-divider.first{
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.fas.fa-chevron-right{
+  font-size: 18px;
+  margin-left: 3px;
+}
+
+.fa, .fas {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.icons_div{
+  margin: 30px auto;
+}
+.icon_div{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 7px;
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+.icon_div.first{
+  border:2px solid #8DA9C4;
+  background-color: #8DA9C4;
+}
+
+.icon_div.second{
+  border:2px solid #F1EF71;
+  background-color: #F1EF71;
+
+}
+
+.icon_div.third{
+  color: rgba(255, 255, 255, 0.945);
+  border:2px solid #C90020;
+  background-color: #C90020;
+}
+
+
+
+
+/* scroll */
+
+.megabanner {
+  margin: 0 -65px;
+  height: 200px;
+}
+  [data-aos][data-aos][data-aos-duration="1000"], body[data-aos-duration="1000"] [data-aos] {
+    transition-duration: 1s;
+  }
+
+.megabanner__description {
+  box-sizing: border-box;
+  max-width: 550px;
+  overflow: hidden;
+  margin: 145px auto;
+  text-align: left;
+}
+
+.slider_manga{
+  width: 350px;
+  height: 500px;
+
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 5px 5px 45px 0 #00ccc271;
+  box-shadow: 5px 5px 45px 0 #00ccc271;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  background: #fff;
+  margin-bottom: 2rem;
+  border-color: #fff;
+}
+
+.btn.slider_button{
+  background-color: #00ccc271;
+}
+
+
+.savings-splat {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 72rem;
+  padding: 10px;
+  z-index: 1;
+  color: white;
+  font-weight: bold;
+  pointer-events: none;
+  font-size: 1.2rem;
+  text-align: right;
+
+}
+
+.savings-splat:before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 0 9rem 8rem 8rem;
+  border-color:  transparent #C3A5DD transparent transparent ;
+  z-index: -1;
+}
+
+			/********Шапка*********/
+
+.navbar{
+  font-size: 18px;
+}
+
+.nav-item.manga{
+  margin: 5px 22px;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+
+.navbar.navbar-light{
+  background-color: #ffffff;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color:  #fff;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #C90020;
+
+}
+
+.navbar-brand{
+	font-family: UD Digi Kyokasho NP-B;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.navbar-brand span{
+	color: #C90020;
+}
+
+header .nav-item{
+	margin-left: 40px;
+	color: #000;
+  justify-content: center;
+  text-align: center;
+}
+
+/* header .nav-item a::after{
+  	background: #000000;
+} */
+
+header .nav-item a, i:hover{
+  	color: #C90020;
+}
+
+.nav_icons{
+  color: #000;
+  font-size: 22px;
+}
+
+.nav_icons_second{
+  color: #fff;
+  font-size: 18px;
+}
+
+/*main*/
+
+				/* first frame */
+
+
+.first_frame{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 100%;
+	height: 100vh;
+
+	/* background: url("https://wallpapercave.com/wp/wp5257172.png") center no-repeat; */
+  background: url("Frame 1/mainframe.jpg")center no-repeat;
+  /* -webkit-background-size:cover;
+	background-size:cover; */
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first_content{
+  position: relative;
+  z-index: 3;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 220px; 
+  color: #fff;
+} 
+
+.first_content p{
+  font-size: 20px;
+  /* margin-top: 10px; */
+}
+
+.first_logo{
+	font-family: UD Digi Kyokasho NP-B;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+	
+}
+.first_logo span{
+	color: #C90020;
+}
+
+
+             /*   button    */
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.button{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding:  40px 0px;
+  width: 240px;
+}
+
+
+.btnn {
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 260px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+
+
+  background: rgba(133, 133, 133, 0.267);
+
+}
+.btnn:hover {
+  text-decoration: none;
+}
+
+/*btn_background*/
+.effect04 {
+  --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
+  display: var(--uismLinkDisplay);
+  color: #fff;
+  outline: solid  2px #C90020;
+  position: relative;
+  transition-duration: 0.4s;
+  overflow: hidden;
+}
+
+.effect04::before,
+.effect04 span{
+    margin: 0 auto;
+	transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+	transition-duration: 0.4s;
+}
+
+/* 文字1を上に */
+.effect04:hover{
+
+  background-color: #C90020;
+}
+
+/* HOVERしたら文字1を上に */
+.effect04:hover span{
+  -webkit-transform: translateY(-400%) scale(-0.1,20);
+          transform: translateY(-400%) scale(-0.1,20);
+}
+
+/*文字2*/
+.effect04::before{
+  content: attr(data-sm-link-text);
+	color: #FFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transform: translateY(500%) scale(-0.1,20);
+          transform: translateY(500%) scale(-0.1,20);
+}
+
+/* HOVERしたら文字2を上に */
+.effect04:hover::before{
+  letter-spacing: 0.05em;
+  -webkit-transform: translateY(0) scale(1,1);
+          transform: translateY(0) scale(1,1);
+}
+
+
+				/* second frame */
+
+
+
+.second_frame{
+  /* max-width: 1200px; */
+	padding: 55px 0 0 0;
+	background: #8DA9C4;
+
+	/* display: -webkit-flex; 
+	display: flex;  */
+
+
+  /* -moz-column-count: 2;
+  column-count: 2; */
+  
+}
+
+section .list-group{
+	display: -webkit-inline-flex;
+ 	display: inline-flex;
+	max-width: 280px;
+  height: 700px;
+  /* margin: 0 0 0 90px; */
+}
+
+section .list-group h4{
+	color: #fff;
+}
+section .list-group a:hover{
+	text-decoration: none;
+	color: #C90020;
+}
+
+section .list-group-item{
+	padding: 28px 9px;
+    font-size: 15px;
+}
+
+.list-group-flush .list-group-item {
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+  /* height: 122px; */
+  padding-top: 32px;
+}
+
+.second_text{
+    margin: 0 -2px;
+    padding: 0 5px;
+}
+
+.circle{
+	width: 45px;
+  height: 45px;
+  border-radius: 50%;
+
+  color: #000;
+	background: #F7833B;
+	padding: 10px 6px;
+	/* margin-left: 26px; */
+}
+
+
+		/**********Карусель************/
+#carouselExampleControls.carousel.slide{
+  margin-bottom: 0;
+}
+
+.carousel{
+  margin: auto;
+  margin-right: 5px;
+  margin-left: 10px;
+  margin-top: 36px;
+
+  width: 42%;
+  display: flex;
+  height: 275px;
+
+
+      /* margin-left: 100px; */
+      /* margin-right: 400px; */
+}
+  
+.carousel-inner{
+  border-radius: 10px;
+}
+
+.carousel-caption a{
+  font-size: 22px; 
+  color: #fff;
+  font-weight: 500;
+  
+}
+  
+.carousel-caption a:hover{
+  text-decoration: none;
+  color: #C90020;
+  
+}
+
+.carousel-control-prev, .carousel-control-next{
+  height: 255px;
+}
+
+/* banner */
+
+.banner{
+  height: 275px;
+  overflow: hidden;
+  max-width: 370px;
+  position: relative;
+  width: 100%;
+  margin: 36px auto;
+
+  border-radius: 5px;
+}
+
+.banner_content .banner_content:after, .banner_content_image, .banner_link {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.banner_content_image{
+  background-image: url("Frame 2/banner.jpg");
+
+  background-size: cover;
+  background-position: 50%;
+
+}
+
+.banner_content:after {
+  background: linear-gradient(180deg, transparent,rgba(0,0,0,.4));
+  content: "";
+}
+.banner_link{
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  text-align: center;
+  padding: 15px 0;
+  text-decoration: none;
+}
+
+.banner_link_title{
+  color: #fff;
+  display: block;
+  line-height: 19px;
+  padding-bottom: 15px;
+
+  border-bottom: 1px solid hsla(0,0%,100%,.2);
+  /* letter-spacing: 1.29px; */
+  text-transform: uppercase; 
+}
+
+.banner_link:hover{
+  text-decoration: none;
+  color: #C90020;
+}
+
+.banner_link_text{
+  color: #fff;
+
+  font-size: 20px;
+  bottom: 15px;
+  display: block;
+  left: 15px;
+  right: 15px;
+  position: absolute;
+  transition: transform .3s ease .1s;
+}
+
+/* shelf */
+
+.shelf{
+  height: 200px;
+  overflow: hidden;
+  max-width: 867px;
+  position: relative;
+  width: 100%;
+  /* margin: 11px; */
+  margin-left: 290px;
+  margin-top: -350px;
+  border-radius: 5px;
+  background: #f1ef71;
+}
+
+
+/* .shelf_image:after{
+  content: '';
+  position: absolute;
+
+  background: rgba(0, 0, 0, 0.144);
+  z-index: 2;
+} */
+.shelf_image{
+  width: 15%;
+  margin: 10px 10px 0 10px; 
+}
+
+/* анимация книг */
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+   -webkit-transform: translateY(0);
+   transform: translateY(0);
+  }
+ 
+  40% {
+   -webkit-transform: translateY(-10px);
+   transform: translateY(-10px);
+  }
+ 
+  80% {
+   -webkit-transform: translateY(-5px);
+   transform: translateY(-5px);
+  }
+ }
+
+.shelf_image:hover {
+  animation: bounce 1s;
+  transition: all .1s ease;
+  outline: 5px solid #F7833B;
+ }
+
+/*********** third frame*********** */
+
+
+.third_content h4{
+  padding: 55px 0;
+}
+
+.third_content_btn{
+  background: #F0E9E9;
+  border-radius: 25px;
+  padding: 10px 40px;
+  font-size: 18px;
+  margin-right: 23px;
+}
+
+.third_content_btn:hover{
+  background: #C90020;
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* Сегодня */
+
+.third_content_banners{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.third_content_banner{
+  padding: 55px 0;
+  max-width: 355px;
+  /* width: 355px; */
+  margin-right: 30px;
+  margin-left: 15px;
+
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.third_content_banner a{
+  color: #697C98;
+  margin-left: 132px;
+}
+
+.third_content_banner a:hover{
+  color: #C90020;
+}
+
+/* баннеры мест */
+.banner_top{
+  display: flex;
+  padding: 20px 0;
+  height: 110px;
+  width: 390px;
+}
+
+
+.banner_top_content{
+  padding: 0 5px;
+  flex-wrap: wrap;
+  text-align: left;
+  display: flex;
+}
+.banner_top h6{
+  margin-left: 10px;
+}
+
+.banner_top_content a{
+  /* margin-left: 5px;
+   */
+  color: #000;
+  /* margin-left: 0; */
+  text-align: left;
+  margin-left: 5px;
+  /* margin-left: 190px; */
+}
+
+.banner_top_content a:hover{
+  /* margin-left: 20px; */
+  color: #C90020;
+  text-decoration: none;
+}
+
+.banner_top p{
+  color: #595959;
+  /* margin-left: 5px;
+   */
+   /* margin-left: 3px; */
+}
+
+/* ****tab %%%%%%%%%% */
+
+
+.tab-pane{
+  max-width: 1200px;
+}
+
+
+section .section-title {
+  text-align: center;
+  color: #000;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+#tabs{
+  background: #fff;
+  color: #000;
+}
+#tabs h6.section-title{
+  color: #000;
+}
+
+.nav_titles{
+  max-width: 600px;
+  font-size: 18px;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+/*    color: #000;
+  background-color: transparent;
+  border-color: transparent transparent #f3f3f3;
+  border-bottom: 4px solid !important;
+  font-size: 20px;
+  font-weight: bold;*/
+
+border-radius: 25px;
+padding: 10px 15px;
+font-size: 18px;
+
+text-align: center;
+color: #fff;
+background: #C90020;
+}
+
+.nav-tabs a{
+  background: #F0E9E9;
+  color: #000;
+  border-radius: 25px;
+  margin-top: 0;
+}
+
+.nav-tabs {
+   border-bottom: 1px solid #fff; 
+}
+
+.nav-tabs .nav-link {
+  border: 1px solid transparent;
+
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  
+/*color: #000;*/
+  font-size: 18px;
+ 
+  margin: 0 10px;
+  padding: 10px 15px;
+}
+
+
+/* ***** fourth_frame ******/
+
+.fourth_frame{
+  padding: 15px 0;
+}
+.fourth_content{
+  padding: 55px 0;
+  display: block;
+  margin: 0 60px;
+}
+
+.fourth_content a{
+  margin: 15px 0;
+}
+
+
+.fourth_content a:hover{
+  text-decoration: underline;
+}
+
+.fourth_content_banners{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fourth_content_banner{
+  max-width: 160px;
+  height: 423px;
+  margin: 5px 25px 125px 25px;
+  display: block;
+  flex-wrap: wrap;
+}
+
+.promotion{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.promotion_line_1 {
+  margin: 5px 20px 0 0;
+  font-size: 17px;
+  height: 30px;
+  text-align: left;
+}
+
+
+.promotion_line_2{
+  text-decoration: line-through;
+  margin: 5px 35px 0 0;
+  font-size: 18px;
+  height: 30px;
+  /* margin: 0 10px; */
+}
+
+.promotion_block_1{
+  border: 2px solid #C90020;
+  background: #C90020;
+  color: #fff;
+  margin: 3px 0;
+  padding: 0 26px;
+}
+
+.promotion_block_2{
+  border: 2px solid #C90020;
+  margin: 3px 0;
+  padding: 0 25px;
+  color: #000;
+}
+
+#fourth_banner_img{
+  width: 160px;
+  height: 230px;
+  margin: 0 auto;
+}
+
+.fourth_content_name{
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 10px 0 15px 0; */
+}
+
+.name_manga{
+  font-size: 18px;
+  margin: 5px 0 10px 0;
+}
+
+.favorite {
+ border: none;
+ background: #fff;
+ color: #000;
+ padding: 5px 10px;
+ font-size: 15px;
+ border: 1px solid #000;
+ margin: 10px 0;
+
+}
+
+.favorite:hover {
+  transition: all .5s ease;
+  border: 1px solid #C90020;
+  color: #fff;
+  background: #C90020;
+}
+
+.heart{
+  background: #fff;
+  color: #d1cbcb;
+  border: 2px solid #fff;
+  margin-left: 5px;
+}
+
+.heart:hover{
+  transition: all .5s ease;
+  color: #C90020;
+}
+
+.fourth_content_hide{
+  display: flex;
+}
+
+.outline_content{
+  margin: 10px 0;
+
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 5px 5px 45px 0 #cc000054;
+  box-shadow: 5px 5px 45px 0 #cc00000c;
+}
+
+.outline_content:hover{
+  animation: bounce 1s;
+  transition: all .1s ease;
+  outline: 4px solid #C90020;
+
+}
+
+
+
+
+/******* footer ***** */
+
+/* @import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700); */
+
+footer ul {
+  padding:0;
+  margin:0
+ }
+ footer li {
+  list-style:none
+ }
+ footer a:focus,a:hover {
+  text-decoration:none;
+  -webkit-transition:.3s ease;
+  -o-transition:.3s ease;
+  transition:.3s ease
+ }
+ footer a:focus {
+  outline:0
+ }
+ 
+ footer p {
+  font-size:16px;
+  line-height:30px;
+  color:#fff;
+  /* font-weight:300 */
+ }
+ 
+ footer h4 {
+  margin:0;
+
+  padding:0;
+  color:#C90020;
+ }
+ footer a {
+  color:#C90020;
+ }
+ 
+.col-md-3 {
+
+  max-width: 23%;
+}
+
+
+ .go_top {
+  line-height:40px;
+  cursor:pointer;
+  width:40px;
+  background:#8DA9C4;
+  color:#fff;
+  position:fixed;
+  -webkit-box-shadow:0 4px 4px rgba(0,0,0,.1);
+  box-shadow:0 4px 4px rgba(0,0,0,.1);
+  -webkit-border-radius:50%;
+  border-radius:50%;
+  right:-webkit-calc((100% - 1140px)/ 2);
+  right:calc((100% - 1140px)/ 2);
+  z-index:111;
+  bottom:80px;
+  text-align:center
+ }
+ .go_top span, a{
+  display:inline-block
+ }
+ .footer-big {
+  padding:105px 0 65px 0
+ }
+ .footer-big .footer-widget {
+
+    margin-bottom: 40px;
+    width: 280px;
+ }
+
+ .footer--light {
+  background: #000000;
+ }
+ .footer-big .footer-menu ul li a,.footer-big p,.footer-big ul li {
+  color:#fff
+ }
+ .footer-menu {
+  padding-left:48px
+ }
+ .footer-menu ul li a {
+  font-size:15px;
+  line-height:32px;
+  -webkit-transition:.3s;
+  -o-transition:.3s;
+  transition:.3s
+ }
+ .footer-menu ul li a:hover {
+  color:#C90020;
+ }
+ .footer-menu--1 {
+  width:100%
+ }
+ .footer-widget-title {
+  line-height:42px;
+  margin-bottom:10px;
+  font-size:18px
+ }
+ .mini-footer {
+  background:#192027;
+  text-align:center;
+  padding:32px 0
+ }
+ .mini-footer p {
+  margin:0;
+  line-height:26px;
+  font-size:15px;
+  color:#999
+ }
+ .mini-footer p a {
+  color:#C90020;
+ }
+ .mini-footer p a:hover {
+  color:#fff
+ }
+ .widget-about img {
+  display:block;
+  margin-bottom:30px
+ }
+ /* .widget-about p {
+  font-weight:400
+ } */
+ .widget-about .contact-details {
+  margin:30px 0 0 0
+ }
+ .widget-about .contact-details li {
+  margin-bottom:10px
+ }
+ .widget-about .contact-details li:last-child {
+  margin-bottom:0
+ }
+ .widget-about .contact-details li span {
+  padding-right:12px
+ }
+ .widget-about .contact-details li a {
+  color:#C90020;
+ }
+
+ /* адаптивность */
+
+@media only screen and (min-width: 1440px){
+  .container {
+    max-width: 1200px;
+  }
+
+  .fourth_content_banner {
+    margin: 5px 30px 125px 47px;
+  }
+
+  /* manga page */
+
+  .fourth_content {
+    margin: 0 110px;
+  }
+
+}
+
+
+@media all and (max-width: 768px){
+  
+  .container_nav{
+    width: 700px;
+  }
+
+  .dropdown{
+    display: none;
+  }
+
+  .dropdown-second{
+    display: block;
+  }
+
+  .container{
+    width: 700px;
+  }
+
+  .d-md-block {
+      height: 300px;
+  }
+  .nav-item i{
+    font-size: 0;
+  }
+
+  .first_content{
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  section .list-group {
+    display: none;
+  }
+
+  .carousel {
+    width: 100%;
+    height: 300px;
+    margin: 0px;
+  }
+
+  .second_frame {
+    padding: 55px 0;
+  }
+
+  /* полка */
+  .shelf {
+    height: 155px;
+    width: 100%;
+    margin: 15px auto;
+  }
+  .shelf_image{
+    width: 74px;
+  }
+
+  .banner_link_title {
+    font-size: 18px;
+  }
+
+  /* third frame */
+
+  .nav_titles {
+    max-width: 300px;
+    display: flex;
+  }
+  .third_content h4{
+    font-size: 25px;
+    margin-left: 190px;
+    width: 90%;
+    padding: 55px;
+  }
+
+  .col-xs-12{
+    width: 300px;
+  }
+
+  .nav_titles {
+    max-width: 300px;
+  }
+
+  #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    padding: 17px 20px;
+    font-size: 18px;
+    height: 60px;
+    margin: 10px;
+  }
+
+  .nav-tabs {
+    width: 690px;
+  }
+
+  .nav-tabs .nav-link {
+    margin: 10px 10px;
+    padding: 15px 20px;
+    height: 60px;
+  }
+
+  .third_content_banner {
+    width: 100%;
+    margin: 0 170px;
+  }
+
+  .third_content h4 {
+    text-align: center;
+    margin: 0 120px;
+  }
+  .third_content_banner h5{
+    font-size: 17px;
+  }
+  .third_content_banner a{
+    font-size: 16px;
+  }
+  .media_hide{
+    display: none;
+  }
+
+  /* fourth frame */
+    /* manga page */
+  .fourth_content {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .fourth_content_banner {
+    max-width: 144px;
+    height: 418px;
+    margin: 48px 18px;
+  }
+
+  #fourth_banner_img {
+    width: 142px;
+    height: 205px;
+  }
+  .promotion_line_1, .promotion_line_2 {
+    margin: 4px 17px 7px 0;
+    font-size: 16px;
+    height: 28px;
+  }
+
+  .promotion_block_1, .promotion_block_2 {
+    padding: 0 7px;
+    font-size: 15px;
+  }
+
+  .fourth_content_hide{
+    display: none;
+  }
+  .favorite {
+    padding: 5px 12px;
+    font-size: 15px;
+  }
+
+  /* footer */
+
+  .widget-about{
+    margin: 0 30px;
+  }
+
+  .no-padding {
+    padding: 0;
+  }
+
+  .col-sm-4 {
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 26px;
+  }
+
+  .footer-big .footer-widget {
+    width: 250px;
+    margin: 10px auto;
+  }
+
+  .fa-heart:before {
+    display: none;
+  }
+
+  .savings-splat {
+    margin-left: -435px;
+  }
+  .slider_manga {
+    width: 280px;
+    height: 400px;
+    margin-top: 68px;
+  }
+
+  .footer-big {
+    padding: 105px 0 64px 0;
+    margin-left: -35px;
+  }
+
+
+}
+
+
+@media all and (max-width: 375px){
+  .container_nav {
+    max-width: 100%;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .first_logo{
+    font-size: 35px;
+  }
+
+  .first_content p {
+    font-size: 20px;
+  }
+
+  .button {
+    padding: 0px 0px;
+    width: 225px;
+  }
+
+  .second_frame {
+    padding: 55px 0 55px 0;
+  }
+
+  .carousel{
+    display: none;
+  }
+
+  .banner{
+    display: flex;
+  }
+
+  .shelf{
+    display: none;
+  }
+
+  .third_content h4 {
+    margin-left: 5px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav-tabs {
+    width: 100%;
+    margin-left: 54px;
+    padding: 15px 5px;
+    margin-right: 0px;
+  }
+  
+  #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    padding: 16px 22px;
+    height: 55px;
+  }
+
+  .nav-tabs .nav-link {
+    margin: 11px 10px;
+    height: 55px;
+  }
+
+
+  .third_content_banner {
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  .dropdown{
+    display: none;
+  }
+
+  .dropdown.manga{
+    display: flex;
+  }
+
+  .dropdown-second{
+    display: block;
+  }
+
+
+  /* manga page */
+
+
+  .savings-splat{
+    display: none;
+  }
+
+  .slider_manga{
+    display: none;
+  }
+
+  .megabanner__description {
+    font-size: 13px;
+    margin-left: -165px;
+  }
+
+
+  .fourth_content {
+    margin: 0;
+  }
+  .fourth_content_banner {
+    margin: 45px 14px;
+  }
+
+  .fa-heart:before {
+    display: none;
+  }
+
+  .favorite {
+    margin-left: -5px;
+  }
+  .footer-big {
+    padding: 104px 0 64px 0;
+  }
+
+}
+
+
+
+
+
+/* wrapper  */
+
+
+.editPage{
+  margin-top: 135px;
+}
+
+/* ***********My Courses **********/
+
+.text{
+  margin: 80px 50px;
+  /* border: 2px solid #6600CC;
+  flex-wrap: wrap;
+  width: 200px; */
+
+
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 200px;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 5px 5px 45px 0  #CC0000;
+  box-shadow: 5px 5px 45px 0 #0000006c;
+  text-align: center;
+  
+}
+
+
+
+.title_course{
+  border: 2px solid #0000004d;
+  border-style: none none solid none; 
+}
+
+/* *******My Profile****** */
+
+.text.profile{
+  margin: -50px 400px;
+  width: 345px;
+  text-align: center;
+  height: 415px;
+  background: rgba(255, 255, 255, 0.95);
+
+  background: rgba(255, 255, 255, 0.658);
+
+  position: absolute;
+  color: rgb(0, 0, 0);
+  transform: translate(0%, -145%);
+  z-index: 2;
+}
+
+/* @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .text.profile {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);  
+  }
+  .warning {
+    display: none;
+  }
+} */
+
+
+.nav-tabs {
+
+  padding: 15px 0;
+  text-align: center;
+}
+
+.formFooter{
+  margin: 10px auto;
+}
+
+.btn-third{
+  background-color: #000;
+  color: #fff;
+  padding: 0px 35px;
+  max-width: 200px;
+}
+.btn-third:hover{
+  background-color: #6600CC;
+  color: #fff;
+}
+
+
+.background_wrapper.first{
+  background: url("Frame 6/MyProfile.png")center ;
+  margin: 0 auto;
+  filter: blur(0.5px);
+
+  margin-bottom: 2rem;
+  border-color: #fff;
+  width: 101%;
+  height: 555px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.wrapper.fadeInDown{
+  background: rgba(255, 255, 255, 0);
+}
+
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+
+/* ADD MANGA MODERATOR*/
+
+.container.second.add{
+  background-color: #B6A6F9;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 1105px;
+}
+
+.text.profile.add_manga{
+
+  width: 450px;
+  height: 1060px;
+  transform: translate(-8%, -8%);
+}
+
+.form-control.add_manga{
+  margin: 0 auto;
+  width: 350px;
+}
+
+.form-group.add_group {
+  flex-flow: wrap;
+  display: flex;
+}
+
+.add_manga_label{
+  margin-left: 50px;
+  text-align: left;
+}
+
+
+/* UPDATE MANGA  */
+
+.container.second.update{
+  background-color: #B6A6F9;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 1230px;
+}
+
+.form-control.update_manga{
+  margin-left: 48px;
+  width: 355px;
+}
+
+.btn-third.update_manga{
+  padding: 0px 51px;
+  margin-left: 50px; 
+  width: 200px;
+}
+
+
+.update_manga_label{
+  margin-left: 50px;
+  text-align: left;
+}
+
+
+
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */
+
+  .form-group.manga_update{
+    margin-left: 40px;
+  }
+
+  .form-control.update_manga{
+    width: 370px;
+    margin-left: 0;
+  }
+
+  .update_manga_label {
+    margin-left: 5px;
+  }
+}
+
+
+
+@media only screen and (max-device-width: 480px) {
+
+  .body_profile{
+    width: 100%;
+    /* max-width: 400px; */
+    /* height: 700px; */
+    background: #C3A5DD;
+  }
+
+  .form-control {
+    font-size: 28px;
+  }
+
+  .text.profile {
+    margin: 0;
+    width: 476px;
+    height: 630px;
+    transform: translate(55%, 8%);
+  }
+
+  .dropdown{
+    display: none;
+  }
+
+  .dropdown-second{
+    display: block;
+  }
+
+  .background_wrapper.first{
+    display: none;
+  }
+
+  .my_profile_h6{
+    font-size: 2rem;
+  }
+
+  .btn-third.myProfile {
+    font-size: 20px;
+    margin-top: 42px;
+    padding: 10px 60px;
+  }
+
+  /* ADD MANGA MODERATOR*/
+
+  .container.second.add{
+    height: 1125px;
+  }
+
+  .text.profile.add_manga {
+    width: 280px;
+    height: 1025px;
+    transform: translate(11%, -8%);
+  }
+
+  .form-control.add_manga {
+    margin: 0 18px;
+    width: 200px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .add_manga_label{
+    margin-left: 65px;
+    text-align: center;
+  }
+
+  .formFooter {
+    margin: 11px 18px;
+  }
+
+
+  /* UPDATE MANGA  */
+
+  .text.profile.update_manga{
+    width: 330px;
+    transform: translate(2%, -8%);
+  }
+
+  .form-control.update_manga {
+    font-size: 15px;
+    width: 255px;
+    margin-left: 12px;
+  }
+
+  .btn-third.update_manga{
+    margin-left: 40px
+  }
+
+  .update_manga_label {
+    margin-left: 85px;
+  }
+
+  .container.second.update{
+    height: 1300px;
+  }
+
+  /* admin page  */
+
+  .content_table.admin_table{
+      margin: 0 100px;
+  }
+
+}
+
+
+@media only screen and (device-width: 768px) {
+  /* default iPad screens */
+
+  .body_profile{
+    width: 100%;
+    /* max-width: 400px; */
+    height: 635px;
+  }
+
+  .dropdown{
+    display: none;
+  }
+
+  .dropdown-second{
+    display: block;
+  }
+
+  .text.profile{
+    height: 470px;
+    transform: translate(-20%, -135%);
+  }
+
+  .my_profile_h6{
+    font-size: 22px;
+  }
+
+  .form-control{
+    font-size: 20px;
+  }
+
+  .form-group {
+    margin-right: 45px;
+  }
+  .btn-third.myProfile{
+    padding: 3px 35px;
+    font-size: 18px;
+  }
+
+  /* ADD MANGA MODERATOR*/
+
+  .text.profile.add_manga {
+    width: 450px;
+    height: 1060px;
+    transform: translate(-65%, -8%);
+  }
+
+  .form-control.add_manga {
+    margin: 0 10px;
+    width: 235px;
+    font-size: 15px;
+  }
+
+  .nav-tabs {
+    width: 508px;
+    display: contents;
+  }
+
+  .add_manga_label {
+    margin-left: 83px;
+    margin-right: 52px;
+    text-align: center;
+  }
+
+  .form-group.add_group {
+    flex-flow: wrap;
+    display: flex;
+    margin: 10px 102px;
+  }
+
+  .btn-third.add_mod_manga{
+    margin-top: 10px;
+  }
+
+  /* UPDATE MANGA  */
+
+  .container.second.update {
+    height: 1275px;
+  }
+  .text.profile.update_manga{
+    width: 415px;
+    height: 1204px;
+    transform: translate(-65%, -6%);
+  }
+
+  .form-control.update_manga{
+    font-size: 18px;
+    margin-left: 50px;
+  }
+
+  .form-group.manga_update{
+    margin-top: 18px;
+  }
+
+  /* DELETE MANGA  */
+
+  .content_table{
+    width: 100%;
+  }
+
+  /* admin page  */
+
+  .content_table.admin_table{
+    margin: 0 115px;
+  }
+}
+
+

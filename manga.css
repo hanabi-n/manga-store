@@ -1,0 +1,851 @@
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+/* nav-bar */
+
+.dropdown, .dropup {
+    margin-left: auto;
+    background-color: #343a40;
+}
+
+.btn-secondary {
+  color: #fff;
+
+  border-color: #6c757d;
+}
+
+.dropdown-item{
+    cursor: pointer;
+}
+
+/* manga page */
+
+
+
+/* sign in form */
+
+
+.alert {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  color: #0d0d0d;
+  background: #FF6600;
+  text-align: center;
+}
+
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+   
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav_second{
+  height: 100%;
+  background-color: #e6630d;
+  color: #000;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav_second{
+  width: 40%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+}
+
+
+.col-md-6 {
+    margin-top: -10%;
+}
+
+.main {
+    padding: 0px 10px;
+}
+
+.sign_up{
+  padding: 0px 0px;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+
+.main{
+  margin-left: 40%; 
+}
+
+
+.sidenav{
+  width: 40%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.login-form{
+  margin-top: 80%;
+}
+
+.login-sign{
+margin-top: 40%;
+}
+
+.register-form{
+  margin-top: 20%;
+}
+
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.title_reg{
+  font-weight: 500;
+  color: #000;
+}
+
+.title_log{
+  font-weight: 500;
+  color: #C90020; 
+}
+
+.title_log_second{
+  font-weight: 500;
+  color: #000; 
+}
+
+
+/* buttons */
+
+.btn-black{
+    background-color: #000;
+    color: #fff;
+    padding: 8px 35px;
+}
+
+.btn-black:hover{
+  background: #FF6600;
+  color: #000;
+}
+
+
+.btn-secondary{
+    margin: 10px 0px;
+    padding: 8px 26px;
+}
+
+.btn-secondary:hover{
+  background-color: #6600CC;
+  color: #fff;
+}
+
+.btn-third{
+  background-color: #000;
+  color: #fff;
+  padding: 8px 35px;
+}
+.btn-third:hover{
+  background-color: #6600CC;
+  color: #fff;
+}
+
+.btn-fourth{
+  padding: 5px 10px;
+  background: #000;
+  color: #fff;
+  margin: 15px auto;
+}
+.btn-fourth:hover{
+  color: #fff;
+  background: #669900;
+}
+
+
+/* add course */
+
+
+
+
+/* ***** fourth_frame ******/
+
+.fourth_frame{
+  padding: 30px 0;
+}
+.fourth_content{
+  padding: 55px 0;
+  display: block;
+  margin: 0 auto;
+}
+
+.fourth_content a{
+  margin: 15px 0;
+}
+
+
+.fourth_content a:hover{
+  text-decoration: none;
+}
+
+.fourth_content_banners{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fourth_content_banner{
+  max-width: 300px;
+  height: 510px;
+  margin: 5px;
+  display: block;
+  flex-wrap: wrap;
+
+
+}
+
+.promotion_price{
+  color: #FF6600;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+
+
+#fourth_banner_img{
+  width: 300px;
+  /* height: 230px; */
+  margin: 0 auto;
+}
+
+.fourth_content_name{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+}
+
+.name_manga{
+  font-size: 18px;
+  margin: 5px 0 10px 0;
+}
+
+.add_course{
+  /* margin: 0px 0px 0px 50px; */
+
+  display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
+    width: 280px;
+
+}
+
+
+.favorite {
+ border: none;
+ color: #fff;
+ padding: 5px 30px;
+ font-size: 16px;
+ background: #ec5f00;
+ margin: 10px 0;
+ border-radius: 15px;
+ cursor: pointer; 
+
+}
+
+.favorite:hover {
+  color: rgb(54, 52, 52);
+
+}
+
+
+.fourth_content_hide{
+  display: flex;
+}
+
+.outline_content{
+
+  padding: 5px;
+  
+  position: relative;
+  min-height: 500px;
+  margin: 8px 35px 50px 30px;
+  
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 5px 5px 45px 0 #ec5f00;
+  box-shadow: 5px 5px 45px 0 #ec5e0041;
+
+}
+
+.outline_content:hover{
+  /* animation: bounce 1s;
+  outline: 5px solid #343A40; */
+  transition: all .2s ease;
+
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 5px 5px 45px 0 #6600CC;
+  box-shadow: 5px 5px 45px 0 #6600CC;
+
+  
+}
+
+/******** Admin Page ***********/
+
+td {
+  border: 1px solid black;
+  padding: 8px 20px;
+}
+
+.tableStyle{
+  margin:40px auto;
+}
+.table{
+  margin:80px auto;
+}
+
+.btn.btn-primary.second{
+  background: #669900;
+  border-color: #669900;
+  
+} 
+
+.btn.btn-primary.second:hover{
+  background: #CC0000;
+  border-color: #CC0000;
+}
+
+
+.btn.btn-primary.first{
+  background: #6600CC;
+  border-color: #6600CC;
+} 
+
+.btn.btn-primary.first:hover{
+  background: #ec5f00;
+  border-color: #ec5f00;
+}
+
+
+
+.btn.btn-primary{
+  padding: 10px 25px;
+}
+
+/* ****   Edit  Page *****/
+
+.editPage{
+  margin-top: 150px;
+}
+
+.form-control{
+  width: 200px;
+  height: 40px;
+}
+
+/* ***********My Courses **********/
+
+.text{
+  margin: 80px 50px;
+  /* border: 2px solid #6600CC;
+  flex-wrap: wrap;
+  width: 200px; */
+
+
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 200px;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 5px 5px 45px 0 #ec5f00;
+  box-shadow: 5px 5px 45px 0 #ec5f00;
+  text-align: center;
+  
+}
+
+
+
+.title_course{
+  border: 2px solid #CC0000;
+  border-style: none none solid none; 
+}
+
+/* *******My Profile****** */
+
+.text.profile{
+  margin: -50px 400px;
+  width: 345px;
+  text-align: center;
+  height: 415px;
+}
+
+.nav-tabs {
+
+  padding: 15px 72px;
+  text-align: center;
+}
+
+
+
+
+.formFooter{
+  margin: 10px auto;
+}
+
+
+/******* footer ***** */
+
+.content-main {
+    height: 200vh;
+  }
+  
+  .fh5co-bg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .fh5co-bg {
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    width: 100%;
+    float: left;
+  }
+  .fh5co-bg .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .fh5co-bg-section {
+    background: rgba(0, 0, 0, 0.05);
+  }
+  
+  #fh5co-footer {
+    padding: 7em 0;
+    clear: both;
+  }
+  
+  #fh5co-footer {
+    position: relative;
+  }
+  #fh5co-footer .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+  #fh5co-footer h3 {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  #fh5co-footer .fh5co-footer-links {
+    padding: 0;
+    margin: 0;
+  }
+  #fh5co-footer .fh5co-footer-links li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  #fh5co-footer .fh5co-footer-links li a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+  }
+  #fh5co-footer .fh5co-footer-links li a:hover {
+    text-decoration: underline;
+  }
+  #fh5co-footer .fh5co-widget {
+    margin-bottom: 30px;
+  }
+  #fh5co-footer .fh5co-widget h3 {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  #fh5co-footer .copyright .block {
+    display: block;
+  }
+  
+  
+  .btn-primary {
+    background: #F85A16;
+    color: #fff;
+    border: 2px solid #F85A16;
+  }
+
+  .btn-primary.btn-outline {
+    background: transparent;
+    color: #F85A16;
+    border: 1px solid #F85A16;
+  }
+
+.main {
+  margin-left: 40%;
+  margin-top: -18%;
+}
+
+.h2, h2 {
+  font-size: 2.5rem;
+}
+
+.btn-five {
+  color: #fff;
+  background: #6c757d;
+  margin-top: 18px;
+  padding: 7px 38px;
+}
+
+.btn-five:hover{
+  color: #000;
+  background: #6600CC;
+}
+
+.sign_up {
+  margin-left: 100px;
+}
+
+.btn-five{
+  margin-left: 100px;
+}
+
+
+
+
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */
+
+  .h2, h2 {
+    font-size: 3.5rem;
+  }
+
+  p {
+    font-size: 27px;
+  }
+
+  /* login form */
+
+  .main {
+    margin-left: 41%;
+    margin-top: -17%;
+  }
+
+  label {
+    font-size: 24px;
+  }
+
+  .form-control {
+    width: 214px;
+    font-size: 18px;
+    height: 48px;
+  }
+
+  .btn-black {
+    padding: 8px 45px;
+    font-size: 20px;
+  }
+
+  .btn-secondary {
+    margin: 13px 0px;
+    padding: 9px 34px;
+    font-size: 20px;
+  }
+
+  /* sign up */
+	
+  .form-group.sign_up.first{
+		margin-top: 40px;
+	}
+
+  .sign_up {
+    padding: 0px 0px;
+    margin-left: 90px;
+    margin-top: 0px;
+  }
+
+  .btn-third {
+    padding: 8px 42px;
+    margin-bottom: 5px;
+    font-size: 21px;
+  }
+
+  .btn-five {
+    font-size: 21px;
+    margin-left: 90px;
+    padding: 8px 45px;
+  }
+
+
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+
+  .sidenav {
+    width: 100%;
+    height: 15%;
+  }
+
+  .h2, h2 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 42px;
+    margin-left: 535px;
+    margin-top: -130px;
+    width: 280px;
+  }
+
+  .login-main-text {
+    margin-top: -4%;
+  }
+  
+  /* login form */
+
+  .main {
+    margin-left: 20%;
+    margin-top: 54%;
+    text-align: center;
+  }
+
+  label {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+
+  .form-control {
+    width: 530px;
+    height: 110px;
+    font-size: 45px;
+    margin: 0 0px 50px 0px;
+  }
+
+  .form-group {
+    padding: 0 15px;
+  }
+
+  .btn-black {
+    font-size: 50px;
+    border-radius: 10px;
+    padding: 26px 200px;
+  }
+
+  .btn-secondary {
+    padding: 20px 175px;
+    margin-top: 50px;
+    font-size: 50px;
+  }
+
+  /* sign Up */
+
+  .login-main-text.sign_up{
+    margin-top: -50px;
+  }
+  .login-main-text h2 {
+    font-weight: 300;
+    font-size: 65px;
+  }
+
+  .sidenav_second {
+    height: 16%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .p_sign_up{
+    display: none;
+  }
+
+  .form-group.sign_up.first{
+		margin-top: 160px;
+	}
+
+  .sign_up {
+    margin: 110px 50px 10px 90px;
+    text-align: center;
+  }
+
+  .form-group.gender{
+    display: inline-grid;
+  }
+
+  input[type=radio] {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 6px;
+  }
+
+  label.gender{
+    margin-left: -10px;
+  }
+
+
+  .btn-third {
+    padding: 25px 166px;
+    margin-top: 20px;
+    border-radius: 13px;
+    font-size: 55px;
+  }
+
+  .btn-five {
+    font-size: 55px;
+    margin-top: 50px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    margin-left: 37px;
+    padding: 24px 177px;
+  }
+}
+
+
+@media only screen and (device-width: 768px) {
+  /* default iPad screens */
+
+  .h2, h2 {
+    font-size: 55px;
+  }
+  .login-main-text {
+    font-size: 30px;
+    margin-top: 45%;
+
+  }
+
+  /* login form */
+
+  label {
+    margin-bottom: 0.8rem;
+    font-size: 30px;
+  }
+
+  .form-control {
+    width: 250px;
+    height: 50px;
+    font-size: 23px;
+  }
+
+  .form-group {
+    margin-bottom: 2rem;
+  }
+
+  .btn-black {
+    padding: 13px 52px;
+    font-size: 23px;
+  }
+
+  .btn-secondary {
+    margin: 20px 0px;
+    padding: 12px 40px;
+    font-size: 23px;
+  }
+  
+  .main {
+    margin-left: 41%;
+    margin-top: -10px;
+  }
+
+
+  /* sign up */
+
+  .login-main-text.sign_up{
+    font-size: 20px;
+    margin-top: 45%;
+    margin-left: 60px;
+  }
+
+  .form-group.sign_up.first{
+		margin-top: 80px;
+	}
+
+  .sign_up {
+    padding: 0px 0px;
+    margin-left: 97px;
+    margin-top: -45px;
+  } 
+
+  .form-group.sign_up {
+    margin-left: -5px;
+    margin-top: 5px;
+  }
+
+  .label_sign_up{
+    font-size: 24px;
+  }
+
+  .form-group.gender{
+    display: inline-grid;
+  }
+
+  input[type=radio] {
+    width: 16px;
+    height: 16px;
+  }
+
+
+  .btn-third {
+    padding: 13px 55px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    margin: auto;
+    font-size: 25px;
+  }
+
+
+  .btn-five {
+    padding: 10px 60px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    margin-left: 0px;
+  }
+
+
+
+}
+
