@@ -1682,7 +1682,7 @@
 					<?php 
 						if (isset($_COOKIE['lang'])) {
 							if($_COOKIE['lang']=='ru'){
-								echo "Все права защищены. Создали ";
+								echo "Все права защищены. ";
 							}elseif($_COOKIE['lang']=='en'){
 								echo "All rights reserved. Created by";
 							}
@@ -1692,11 +1692,11 @@
 					<?php 
 						if (isset($_COOKIE['lang'])) {
 							if($_COOKIE['lang']=='ru'){
-								echo "Наргиз и Арлан";
+								echo "Наргиз";
 							}elseif($_COOKIE['lang']=='en'){
-								echo "Nargiz and Arlan";
+								echo "Nargiz";
 							}
-						}else{echo "Nargiz and Arlan";}
+						}else{echo "Nargiz";}
 					?>
 					
 					</a>
